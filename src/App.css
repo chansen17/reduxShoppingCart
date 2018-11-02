@@ -1,0 +1,31 @@
+.container {
+  margin-top: 50px;
+}
+
+.purchase-card {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 #9d9a9a;
+  border: none;
+  padding: 1em;
+}
+
+.purchase-card > .show-grid {
+  padding: 1.5em;
+}
+
+.item-details-button:focus,
+.item-details-button:hover { 
+  outline: none;
+  text-decoration: none;
+}
+
+
+.price-strike {
+  text-decoration: line-through;
+}
+
+.promo-code-button:focus,
+.promo-code-button:hover  {
+  outline: none;
+  text-decoration: none;
+}
